@@ -1,3 +1,7 @@
+# Fork note
+
+I created this fork to maintain compatibility with major Capacitor versions so I can safely use it in my projects. I don't really intend to develop it in any other way.
+
 # Capacitor File Chunk
 
 The Capacitor File Chunk plugin, designed for iOS and Android, offers an effective solution to read and write large files, addressing the limitations of the Capacitor Filesystem. This plugin builds on the original concept and code of the [Capacitor Blob Writer](https://github.com/diachedelic/capacitor-blob-writer) plugin by providing the ability to read and write files in chunks, offering improved performance compared to the Capacitor Filesystem plugin. It enables direct communication and exchange of binary data with a localhost web server, eliminating the need for base64 conversion. This approach allows for more efficient and faster handling of large files in iOS and Android applications.
@@ -32,13 +36,14 @@ With the Capacitor File Chunk plugin, handling large files is now more efficient
 
 | Plugin Version | Capacitor Version |
 |----------------|-------------------|
+| 8.0.0          | Capacitor 8       |
 | 3.0.0          | Capacitor 7       |
 | 2.0.0          | Capacitor 6       |
 | 1.0.0          | Capacitor 5       |
 | 0.9.2          | Capacitor 4       |
 
 ```bash
-npm install capacitor-file-chunk
+npm install https://github.com/pdrhlik/capacitor-file-chunk#v8.0.0
 npx cap sync
 ```
 
